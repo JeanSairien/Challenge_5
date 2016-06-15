@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 carole et red 
 
+=======
+>>>>>>> 70d11c7997838f6c9452657ef011dfdfed573dd5
 Exercice 5 : audiotheme
 
 A rendre avant le 28 juin.
