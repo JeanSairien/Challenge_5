@@ -1,0 +1,104 @@
+body.container{
+    height:1024px;
+    width:890px;
+    display: block;
+    background-color: whitesmoke;
+    
+
+
+}
+
+
+
+#topmenu{
+     float:left;
+      width:670px;
+      clear:right;      
+      
+
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: left ;
+
+  }
+  .sidebar-nav .navbar ul {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+
+input{
+
+  width: 150px;
+}
+
+
+header.container{
+    height: 150px;
+    width: 820px;
+    background-color: red;
+    
+    
+    
+}
+@media (min-width: 768px){
+#container{
+    
+    height:620px;
+    width:820px;
+    background-color: yellow;
+    display:flex;
+    justify-content: center;
+    margin-top: 0;
+
+
+  }
+
+
+div.col-sm-8 p{
+    float: right;
+    
+    position: center;
+    
+    
+  }
+
+div.col-sm-8 h1{
+    text-align: center;
+    margin-left:15px;
+
+  }
+
+
+div.col-sm-4{
+    display: flex;
+    justify-content: flex-end;    
+    margin-left: 0;
+    margin-right: 80px;
+    margin-top: 150px;
+
+
+  }
+
+aside.container ul{
+    list-style: none;
+
+
+  }
+
+}
