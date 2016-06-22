@@ -1,27 +1,37 @@
 body.container{
     height:1024px;
-    width:890px;
+    width:100%;
     display: block;
     background-color: black;
     
 
 
 }
+@media (min-width: 768px) {
 
+nav.navbar{
+    background-image:none;
+    background-color: black;
+    border-color: black;    
+
+
+    }
+}
 
 
 
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
 .bloc1 {
+  float:left;
   background-color:black;
   width:250px;
   height:1000px;
   display:flex;
   justify-content: flex-start;
 
-  align-items: flex-start;
-  float:left;
+  align-content: flex-start;
+  
 }
 
 
@@ -33,8 +43,19 @@ body.container{
 }
 
 ol{
-  display: block;
-  
+  display: flex;
+  flex-direction: column;
+  color:white;
+  list-style-type: none;
+  padding-left: 0;
+
+}
+li{
+
+border-bottom: 1px solid grey;
+border-width: 1px;
+border-
+}  
 
 
 
@@ -42,18 +63,12 @@ ol{
 
 nav li {
   color:white;
-  margin-right: 20px;
   list-style-type:none;
-  border-bottom: 1px solid grey;
-  border-width: 1px;
-
+  
   
 }
 
-hr {
-  color:#404040;
 
-}
 
 form {
   padding-top:20px;
@@ -75,6 +90,25 @@ input {
   padding-left:20px;
 }
 
+div.block2 {
+  display:flex;
+  flex-direction: inline-flex ;
+
+}
+
+div.col-md-3 h5{
+  color: white;
+
+
+}
+
+div.col-md-3 p{
+color: white;
+
+
+}
+
+
 .img1 {
   width:200px;
   height:140px;
@@ -92,16 +126,18 @@ input {
 h4 {
   color:white;
 }
-
-p {
+ 
+.barre p {
   color:white;
+  display: flex;
+  flex-direction: row;
+  }
+
 }
 
 
 
-
-
-
+@media (min-width: 768px) {
 header.container{
     height: 150px;
     width: 820px;
@@ -109,7 +145,7 @@ header.container{
     position:relative;
     
     
-    
+    }
 }
 @media (min-width: 768px){
 #container{
