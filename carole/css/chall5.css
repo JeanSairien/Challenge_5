@@ -1,0 +1,227 @@
+body.container{
+    height:1024px;
+    width:100%;
+    display: block;
+    background-color: black;
+    
+
+
+}
+@media (min-width: 768px) {
+
+nav.navbar{
+    background-image:none;
+    background-color: black;
+    border-color: black;    
+
+
+    }
+}
+
+
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+.bloc1 {
+  	float:left;
+  	background-color:black;
+  	width:250px;
+  	height:1000px;
+  	display:flex;
+  	justify-content: flex-start;
+  	align-content: flex-start;
+  
+}
+
+
+
+.titre {
+  	color:#404040;
+  	opacity:1;
+
+}
+
+ol{
+  	display: flex;
+  	flex-direction: column;
+  	color:white;
+  	list-style-type: none;
+  	padding-left: 0;
+
+}
+
+li{
+	
+	border-bottom: 1px solid grey;
+	border-width: 1px;
+}  
+
+
+
+nav li {
+	color:white;
+  	list-style-type:none;
+ 	padding-top:7px; 
+ 	padding-bottom:7px;
+  	font-size:12px;
+  	
+  	padding-left:15px;
+}
+
+li.Grrr {
+	border-top:1px solid grey;
+	border-width:1px;
+	margin-top:7px;
+	padding-top:7px;
+}
+
+.active {
+	
+	background-color:#24890D;
+
+}
+
+.fa-github {
+	float:right;
+	margin-right:15px;
+}
+
+
+.fa-wordpress {
+	float:right;
+	margin-right:15px;
+}
+
+
+
+
+
+
+
+form {
+  padding-top:20px;
+  padding-left:15px;
+  
+}
+
+.form-control {
+  width:200px;
+  border-radius:1px;
+  border-color:#404040;
+  color:white;
+  background-color:#181818;
+}
+
+.img {
+  width:180px;
+  height:90px;
+  padding-left:20px;
+}
+
+div.block2 {
+  display:flex;
+  flex-direction: inline-flex ;
+
+}
+
+div.col-md-3 h5{
+  color: white;
+
+
+}
+
+div.col-md-3 p{
+color: white;
+
+
+}
+
+
+.img1 {
+  width:200px;
+  height:140px;
+}
+
+.img2 {
+  width:200px;
+  height:140px;
+}
+
+.img3 {
+  width:200px;
+  height:140px;
+}
+h4 {
+  color:white;
+}
+ 
+.barre p {
+  color:white;
+  display: flex;
+  flex-direction: row;
+  }
+
+}
+
+
+
+@media (min-width: 768px) {
+header.container{
+    height: 150px;
+    width: 820px;
+    background-color: red;
+    position:relative;
+    
+    
+    }
+}
+@media (min-width: 768px){
+#container{
+    
+    height:620px;
+    width:820px;
+    background-color: black;
+    display:flex;
+    justify-content: flex-start;
+    align-content:flex-end;
+    align-self: flex-start;
+    
+    color:whitesmoke;
+
+
+  }
+
+
+div.col-sm-8 p{
+    float: right;
+    
+    position: center;
+    
+    
+  }
+
+div.col-sm-8 h1{
+    text-align: center;
+    margin-left:15px;
+
+  }
+
+
+div.col-sm-4{
+    float:right;
+    display: flex;
+    justify-content: flex-end;    
+    margin-left: 0;
+    margin-right: 80px;
+    margin-top: 150px;
+
+
+  }
+
+aside.container ul{
+    list-style: none;
+
+
+  }
+
+}
