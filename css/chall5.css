@@ -10,42 +10,96 @@ body.container{
 
 
 
-#topmenu{
-     float:left;
-      width:670px;
-      clear:right;      
-      
-
-}
 
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
-  .sidebar-nav .navbar .navbar-collapse {
-    padding: 0;
-    max-height: none;
-  }
-  .sidebar-nav .navbar ul {
-    float: left ;
+.bloc1 {
+  background-color:black;
+  width:250px;
+  height:1000px;
+  display:flex;
+  justify-content: flex-start;
 
-  }
-  .sidebar-nav .navbar ul {
-    display: block;
-  }
-  .sidebar-nav .navbar li {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+  align-items: flex-start;
+  float:left;
 }
 
 
-input{
 
-  width: 150px;
+.titre {
+  color:#404040;
+  opacity:1;
+
 }
+
+ol{
+  display: block;
+  
+
+
+
+}
+
+nav li {
+  color:white;
+  margin-right: 20px;
+  list-style-type:none;
+  border-bottom: 1px solid grey;
+  border-width: 1px;
+
+  
+}
+
+hr {
+  color:#404040;
+
+}
+
+form {
+  padding-top:20px;
+  padding-left:15px;
+  
+}
+
+input {
+  width:200px;
+  border-radius:1px;
+  border-color:#404040;
+  color:white;
+  background-color:#181818;
+}
+
+.img {
+  width:140px;
+  height:80px;
+  padding-left:20px;
+}
+
+.img1 {
+  width:200px;
+  height:140px;
+}
+
+.img2 {
+  width:200px;
+  height:140px;
+}
+
+.img3 {
+  width:200px;
+  height:140px;
+}
+h4 {
+  color:white;
+}
+
+p {
+  color:white;
+}
+
+
+
+
 
 
 header.container{
@@ -62,10 +116,13 @@ header.container{
     
     height:620px;
     width:820px;
-    background-color: whitesmoke;
+    background-color: black;
     display:flex;
-    justify-content: justify;
-    margin-top: 0;
+    justify-content: flex-start;
+    align-content:flex-end;
+    align-self: flex-start;
+    
+    color:whitesmoke;
 
 
   }
