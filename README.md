@@ -1,8 +1,12 @@
-<<<<<<< HEAD
-carole et red 
 
-=======
->>>>>>> 70d11c7997838f6c9452657ef011dfdfed573dd5
+#carole et red 
+
+sidebar par carole 
+navbar du haut :redish
+block header avec les 3 images : carole et red
+section et block blanc du bas : red
+footer: red 
+
 Exercice 5 : audiotheme
 
 A rendre avant le 28 juin.
