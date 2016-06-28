@@ -1,11 +1,11 @@
 
 #carole et red 
 
-sidebar par carole 
-navbar du haut :redish
-block header avec les 3 images : carole et red
-section et block blanc du bas : red
-footer: red 
+sidebar par carole    
+navbar du haut :redish   
+block header avec les 3 images : carole et red   
+section et block blanc du bas : red   
+footer: red    
 
 Exercice 5 : audiotheme
 
