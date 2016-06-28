@@ -3,22 +3,31 @@ body.container{
     width:1580px;
     display: block;
     background-color: black;
+    font-family: Lato;
     
 
 
 }
-/*@media screen and (min-width: 480px) {*/
+@media and (min-width: 480px) {
 
 nav.navbar{
-    width: 1280px;
+    margin: 0;
+    
+    padding-right: 20px;
     background-image:none;
     background-color: black;
-    border-color: black;    
-
-
+    border-color: green;
+    color:lightgreen;    
     }
-}
 
+div.container-fluid{
+    display:flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0 ;
+
+
+}
 
 
 /* make sidebar nav vertical */ 
@@ -28,9 +37,7 @@ div.bloc1 {
   background-color:black;
   width:250px;
   height:1000px;
-  display:flex;
-  justify-content: flex-end;
-  align-content: flex-start;
+
     
 }
 
@@ -50,11 +57,12 @@ ol{
   padding-left: 0;
 
 }
-li{
+div.row li{
+  border: 2px solid;
+  border-color: white;
 
-border-bottom: 1px solid grey;
-border-width: 1px;
-border-
+
+
 }  
 
 
@@ -89,6 +97,7 @@ input {
   height:80px;
   padding-left:20px;
 }
+
 @media (min-width: 480px) {
 div.block2 {
   height: 250px;
